@@ -1,47 +1,53 @@
-<!-- File: blog.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Blog - EquiCore Insights</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <header>
-        <img src="assets/logo.png" alt="EquiCore Logo" class="logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="reports.html">Research Reports</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
 
-    <section class="hero">
-        <h1>Equity Research Blog</h1>
-        <p>Insights, valuation breakdowns, and investment ideas by Mangesh</p>
-    </section>
+<header>
+    <img src="assets/equicore-logo.png" alt="EquiCore Logo" class="logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="reports.html">Reports</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+</header>
 
-    <section style="padding: 30px;">
-        <ul>
-            <li>
-                <h3><a href="#">📘 DCF Valuation Simplified: A Guide for Beginners</a></h3>
-                <p>A step-by-step explanation of Discounted Cash Flow analysis with examples.</p>
-            </li>
-            <li>
-                <h3><a href="#">📘 RACL Geartech: A Deep Dive into Its Business Model</a></h3>
-                <p>Understanding why this company may be undervalued and what the numbers say.</p>
-            </li>
-            <li>
-                <h3><a href="#">📘 Financial Ratios that Actually Matter in Stock Picking</a></h3>
-                <p>Quick filters every investor should use before researching deeper.</p>
-            </li>
-            <!-- Add more manually -->
-        </ul>
-    </section>
+<section class="hero" data-aos="fade-up">
+    <h1>Equity Research Blog</h1>
+    <p>Insights, valuations, and strategies by Mangesh Bansal</p>
+</section>
 
-    <footer>
-        <p>&copy; 2025 EquiCore Insights. All rights reserved.</p>
-    </footer>
+<section class="blog-list">
+    <div class="blog-card" data-aos="fade-right">
+        <h3>📘 DCF Valuation Simplified</h3>
+        <p>Step-by-step guide to Discounted Cash Flow analysis.</p>
+    </div>
+
+    <div class="blog-card" data-aos="fade-left">
+        <h3>📘 RACL Geartech Analysis</h3>
+        <p>A deep dive into RACL's business model and stock potential.</p>
+    </div>
+
+    <div class="blog-card" data-aos="fade-right">
+        <h3>📘 Financial Ratios That Matter</h3>
+        <p>Key ratios for smarter stock screening & investing.</p>
+    </div>
+</section>
+
+<footer>
+    &copy; 2025 EquiCore Insights. All rights reserved.
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
